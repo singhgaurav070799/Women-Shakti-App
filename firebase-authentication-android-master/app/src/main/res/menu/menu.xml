@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_name"
+            android:onClick="profile"
+            android:title="Profile" />
+        <item
+            android:icon="@drawable/ic_group"
+            android:onClick="gaurdianDetails"
+            android:title="Gaurdian Details" />
+        <item
+            android:id="@+id/update"
+            android:onClick="updaProfile"
+            android:icon="@drawable/ic_updateprofile"
+            android:title="Update Profile" />
+        <item
+            android:icon="@drawable/ic_video"
+            android:onClick="video"
+            android:title="Defense Video" />
+        <item
+            android:icon="@drawable/ic_power"
+            android:onClick="logout"
+            android:title="Logout" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"></item>
+
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_send"
+                android:title="Send"></item>
+
+        </menu>
+    </item>
+</menu>

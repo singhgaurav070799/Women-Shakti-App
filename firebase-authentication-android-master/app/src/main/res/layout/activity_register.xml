@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000b76"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/projectimg"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Registration"
+        android:textColor="#ffffff"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff5500"
+        android:drawableLeft="@drawable/ic_name"
+        android:hint=" Enter Your Name"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff5500"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint=" Enter Your Email"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff5500"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint=" Enter Your Password"
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/EtConPassword"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginRight="5dp"-->
+<!--        android:background="#ff5500"-->
+<!--        android:drawableLeft="@drawable/ic_password"-->
+<!--        android:hint=" Enter your confirm password"-->
+<!--        android:textColorHint="#ffffff"-->
+<!--        android:textStyle="bold" />-->
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff5500"
+        android:drawableLeft="@drawable/ic_phone"
+        android:hint=" Enter Your Phone Number"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:backgroundTint="#ff5500" />
+
+    <TextView
+        android:id="@+id/createText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Already User? Go to Login"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible" />
+</LinearLayout>

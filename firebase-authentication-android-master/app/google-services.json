@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "225930772072",
+    "project_id": "womensecurityapp-e01f4",
+    "storage_bucket": "womensecurityapp-e01f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225930772072:android:ef2e44bd6af9d7189b05dd",
+        "android_client_info": {
+          "package_name": "com.bytecode.womenshakti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225930772072-69v9obh1cf8bok7rbm4jdv4iuhrbjf6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX07AYcHmAl0cuMAWalg1MqHQ7LgrtUgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225930772072-69v9obh1cf8bok7rbm4jdv4iuhrbjf6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

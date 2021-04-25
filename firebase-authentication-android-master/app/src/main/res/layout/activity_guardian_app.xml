@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000b76"
+    tools:context=".GuardianApp">
+
+    <TextView
+        android:id="@+id/tvgd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text="Guardian Details" />
+    <TextView
+        android:id="@+id/tvgd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="Guardian Details Ist" />
+    <EditText
+        android:id="@+id/etpe1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff5500"
+        android:drawableLeft="@drawable/ic_email"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        android:hint=" Enter Your Parent Email" />
+    <EditText
+        android:id="@+id/etpn1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff5500"
+        android:drawableLeft="@drawable/ic_phone"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:hint=" Enter Your Parent Phone Number" />
+    <TextView
+        android:id="@+id/tvgd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="Guardian Details IInd" />
+    <EditText
+        android:id="@+id/etpe2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff5500"
+        android:drawableLeft="@drawable/ic_email"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:hint=" Enter Your Parent Email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/etpn2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff5500"
+        android:drawableLeft="@drawable/ic_phone"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:hint=" Enter Your Parent Phone Number"/>
+    <TextView
+        android:id="@+id/tvgd3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="Guardian Details IIIrd"/>
+    <EditText
+        android:id="@+id/etpe3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff5500"
+        android:drawableLeft="@drawable/ic_email"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:hint=" Enter Your Parent Email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/etpn3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff5500"
+        android:drawableLeft="@drawable/ic_phone"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:hint=" Enter Your Parent Phone Number"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="center"
+        android:onClick="save"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        app:backgroundTint="#ff5500" />
+
+
+</LinearLayout>
